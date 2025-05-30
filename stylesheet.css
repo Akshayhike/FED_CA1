@@ -1,0 +1,443 @@
+/* The system default */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    height: 100%;
+}
+/* The system default */
+
+
+/* Navigation Bar */
+/* The styling for the entire navbar */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* The positioning of elements and background color of the navbar */
+nav {
+    background-color: black;
+    color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* The styling for the ul tag wrapping the links */
+nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+/* The styling for the ul tag wrapping the links */
+.navlinks {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+}
+
+/* The styling for the links */
+.navlink {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: flex;
+    margin: 0 10px;
+}
+
+/* The hover animation for the links */
+.navlink:hover {
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.35s;
+}
+
+/* The positioning of the logo on the left of the navbar */
+.logo {
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px;
+}
+/* Navigation Bar */
+
+
+/* Homepage Content */
+
+/* Main Content */
+
+/* Introduction */
+/* The background image and positioning of the text */
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("assets/trash-title.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 1020px;
+    color: rgb(255, 255, 200);
+}
+
+/* The intro heading style */
+.intro-heading{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0px 0px 30px 35px;
+    text-align: center;
+}
+
+/* The intro content styling */
+.intro-content {
+    text-align: justify;
+    font-size: 30px;
+    margin: 0px 20px 0px 20px;
+    font-weight: bold;
+    width: 1500px;
+    line-height: 1.5;
+}
+
+/* The table of contents(not a table just a list) */
+.intro-list {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 2.5;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+/* Introduction */
+
+/* What is a Zero Waste Lifestyle */
+/* The main heading */
+.waste-heading {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 25px;
+    text-align: center;
+    color: black;
+}
+/* The container styling for the content */
+.waste {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    margin: 100px 20px 0px 20px;
+}
+
+/* The Earth day image */
+#waste-image {
+    justify-content: left;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+/* The figcation for the Earth day image */
+#waste-caption {
+    position: absolute;
+    left: 100px;
+    top: 1950px;
+    background-color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    font-size: 25px;
+    color: #6C757D;
+}
+
+/* The paragraphs next to waste image */
+#waste-content {
+    font-size: 24px;
+    width: 1000px;
+    height: fit-content;
+    line-height: 1.5;
+    margin: 0px 20px 0px 20px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgb(97, 145, 97);
+    color: white;
+    border: 1px solid black;
+}
+
+/* The hover shadow for the box */
+#waste-content:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* What is a Zero Waste Lifestyle */
+
+/* Explanation of Zero Waste Principles */
+/* The position of the section */
+.explain {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+}
+
+/* The main heading style */
+.explain-heading {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 25px;
+    text-align: center;
+    color: black;
+}
+/* Makes them in row */
+.explain-boxes {
+    display : flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 0px;
+    margin: 10px;
+}
+
+/* The box styling for the content */
+.explain-container {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    border: 1px solid black;
+    background-color: rgba(201, 243, 201, 0.792);
+}
+
+/* The hover animation for the boxes of content */
+.explain-container:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* The subheading styling for the boxes */
+.explain-term {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+/* The content styling for the boxes */
+.explain-meaning {
+    font-size: 30px;
+    color: black;
+}
+
+/* Explanation of Zero Waste Principles */
+
+/* Statistics */
+/* The main heading */
+.stats-heading {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 25px;
+    text-align: center;
+    color: black;
+}
+/* The positioning for the stats */
+.stats-boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 0px;
+    margin: 10px;
+}
+
+/* The boxes for the stats */
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 20px 10px 20px;
+    padding: 35px;
+    border-radius: 20px;
+    background-color: rgb(97, 145, 97);
+    border: 1px solid black;
+}
+
+/* The hover animations for the content boxes */
+.stats-container:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* The styling for the subheading of the boxes */
+.stats-term {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+/* The styling for the actual stats content */
+.stats-meaning {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+/* The styling for the units (gradient is from the span styling in the next section) */
+.units {
+    font-size: 30px;
+}
+
+/* The box for the why statment */
+#why {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80%;
+    background-color: rgb(97, 145, 97);
+    color: white;
+    border: 1px solid black;
+}
+
+/* The hver animation for the why statment */
+#why:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* The styling for the why box subheading */
+#why-heading {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 25px;
+    text-align: center;
+}
+
+/* The styling for the why box content */
+#why-reason {
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+/* Statistics */
+
+/* Real-life examples of Zero Waste Stores */
+/* The positioning of the entire examples section */
+.examples {
+    margin-top: 110px;
+}
+
+/* The styling of the main heading */
+.examples-mainhead {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 25px;
+    text-align: center;
+    color: black;
+}
+
+/* The styling for the boxes around the content */
+.examples-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 20px 10px 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+}
+
+/* The hover animation for the content boxes */
+.examples-box:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* The styling for the subheading on the left side of the content boxes */
+.examples-subhead {
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 25px;
+    text-align: center;
+    width: 500px;
+    justify-content: left;
+    align-items: center;;
+}
+
+/* The styling for the box content */
+.examples-content {
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 1500px;
+    text-align: justify;
+}
+
+/* The gradient for the keywords and the units in the previous section  */
+span {
+    background-image: linear-gradient(to bottom right, #72FFB6, #10D164);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* Real-life examples of Zero Waste Stores */
+
+/* Main Content */
+
+/* Footer */
+/* Styling for the entire footer section */
+footer {
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+/* Styling for the text in the footer */
+.footer-text {
+    color: white;
+}
+
+/* Styling for the buttons in the footer */
+.fbutton {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* The hover animation */
+.fbutton:hover {
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.35s;
+}
+/* Footer */
+
+/* Homepage Content */
+
+
